@@ -88,6 +88,8 @@ group :development do
 
   # Add a comment summarizing the current schema to the top or bottom of file
   gem 'annotate'
+
+  gem 'letter_opener'
 end
 
 group :test do
@@ -100,3 +102,6 @@ group :test do
   gem 'simplecov', require: false
   gem 'webdrivers'
 end
+
+# Authentication
+gem 'devise'
